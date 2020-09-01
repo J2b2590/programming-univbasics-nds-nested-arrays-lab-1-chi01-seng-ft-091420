@@ -60,5 +60,5 @@ def matrix_update(matrix, row, column, new_value)
 
 add_item = matrix[row][column]
 
-add_item = new_value
+add_item = "new_value"
 end
