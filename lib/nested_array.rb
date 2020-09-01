@@ -35,13 +35,13 @@ def sorted_matrix
   # However, this time, sort each internal array alphabetically by the first character
   organic_sorted = ORGANIC_PRODUCE.sort
   conventional_sorted = CONVENTIONAL_PRODUCE.sort
-  
+
   produce_storage = [
     conventional_sorted,
     organic_sorted
   ]
 
-  puts produce_storage
+  produce_storage
 end
 
 def matrix_lookup(matrix, row, column)
